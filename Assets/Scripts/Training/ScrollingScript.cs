@@ -4,6 +4,7 @@
 /// Parallax scrolling script that should be assigned to a layer
 public class ScrollingScript : MonoBehaviour
 {
+	public GameObject player;
 	public float EndPosition = 500;
 
 	/// Scrolling speed
@@ -17,6 +18,12 @@ public class ScrollingScript : MonoBehaviour
 	/// Movement should be applied to camera
 	public bool isLinkedToCamera = false;
 
+	public GameObject buttonSet;
+
+	void Start(){
+		buttonSet.SetActive (false);
+	}
+
 	void Update()
 	{
 		// Movement
@@ -28,6 +35,9 @@ public class ScrollingScript : MonoBehaviour
 			movement *= Time.deltaTime;
 		if (transform.localPosition.y < EndPosition) {
 			transform.Translate (movement);
+		} else {
+			buttonSet.SetActive (true);
+			
 		}
 		// Move the camera
 		if (isLinkedToCamera)
