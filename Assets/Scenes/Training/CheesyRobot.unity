@@ -968,7 +968,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233658559}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.038987, y: -30.40714, z: 10.131039}
+  m_LocalPosition: {x: -6.2, y: -35.2, z: 10.131039}
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0}
   m_Children: []
   m_Father: {fileID: 903965460}
@@ -1352,7 +1352,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 334705103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.27, y: -119.9, z: 10.131039}
+  m_LocalPosition: {x: -3, y: -118.5, z: 10.131039}
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0}
   m_Children: []
   m_Father: {fileID: 903965460}
@@ -1580,7 +1580,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 367734833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.8389874, y: -54.51714, z: 10.131039}
+  m_LocalPosition: {x: -4, y: -54.51714, z: 10.131039}
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0}
   m_Children: []
   m_Father: {fileID: 903965460}
@@ -2688,7 +2688,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 572629300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2589872, y: -88.28714, z: 10.131039}
+  m_LocalPosition: {x: -4.3, y: -88.28714, z: 10.131039}
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0}
   m_Children: []
   m_Father: {fileID: 903965460}
@@ -3029,7 +3029,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 666934071}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.8589873, y: -103.18714, z: 10.131039}
+  m_LocalPosition: {x: -3.2, y: -103.18714, z: 10.131039}
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0}
   m_Children: []
   m_Father: {fileID: 903965460}
@@ -3975,7 +3975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ede5c1e7806d415b996689c9a90be6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
+  speed: {x: 8, y: 8}
   direction: {x: 0, y: 1}
   isLinkedToCamera: 0
 --- !u!1 &916693069
@@ -4237,8 +4237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1891824479}
-  EndPosition: 105.6
-  speed: {x: 8, y: 8}
+  EndPosition: 105.5
+  speed: {x: 6, y: 6}
   direction: {x: 0, y: 1}
   isLinkedToCamera: 0
   buttonSet: {fileID: 916693069}
@@ -5173,7 +5173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -72.89322, y: -284.2136}
+  m_AnchoredPosition: {x: -96, y: -284.2136}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1278403363
