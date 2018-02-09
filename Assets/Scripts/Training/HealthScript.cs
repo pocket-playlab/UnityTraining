@@ -7,7 +7,16 @@ public class HealthScript : MonoBehaviour {
 
 	public bool isEnemy = true;
 
+	public GameObject buttonSet;
+
+
+	void Start(){
+		buttonSet.SetActive (false);
+	}
+
 	void OnTriggerEnter2D (Collider2D collider) {
+
+
 
 		ShotScript shot = collider.gameObject.GetComponent<ShotScript> ();
 
@@ -21,6 +30,8 @@ public class HealthScript : MonoBehaviour {
 				{
 					SpecialEffectsHelper.Instance.Explosion(try.ImagePosition);
 					Destroy (gameObject);
+					buttonSet.SetActive (true);
+
 				}
 			}
 		}
