@@ -19,6 +19,7 @@ public class HealthScript : MonoBehaviour {
 
 				if (hp <= 0) 
 				{
+					SpecialEffectsHelper.Instance.Explosion(try.ImagePosition);
 					Destroy (gameObject);
 				}
 			}
