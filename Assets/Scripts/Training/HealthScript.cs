@@ -28,7 +28,8 @@ public class HealthScript : MonoBehaviour {
 
 				if (hp <= 0) 
 				{
-					SpecialEffectsHelper.Instance.Explosion(try.ImagePosition);
+//					SoundEffectHelper.Instance.Explosion(transform.position);
+					SoundEffectHelper.Instance.MakeExplosionSound ();
 					Destroy (gameObject);
 					buttonSet.SetActive (true);
 
