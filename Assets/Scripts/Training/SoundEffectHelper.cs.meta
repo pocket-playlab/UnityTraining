@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6e4f3d7db504546b5b55526d72cd743f
+timeCreated: 1518160795
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - explosionSound: {fileID: 8300000, guid: 4a8bb17bd58e040c3bbf3782324a8ce3, type: 3}
+  - playerShotSound: {instanceID: 0}
+  - enemyShotSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
